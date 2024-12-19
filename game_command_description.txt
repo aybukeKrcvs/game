@@ -1,0 +1,33 @@
+--------------Menu Commands--------------
+
+- start: to start a new game
+- list: lists the saved games
+- save <filepath>: saves the current state in to the given file
+- load <filepath>: loads the state from the given file
+- exit: exit the game
+
+--------------In-Game Commands--------------
+
+- move <direction>: move to a different room if possible.
+	move up
+	move right
+	move down
+	move left
+
+- look: display the description of the current room,
+	tells you if there are any entity and items and their descriptions.
+
+- inventory: display the item list the player has collected.
+
+- status: display player's health and damage
+
+- pickup <item_name>: add the item to the inventory if present in the room.
+
+- drop <item_name>: drop the item from your inventory.
+
+- use <item_name>: use the item if it is valid and proper.
+		!!WARNING!! to be able to use your sword type attack <sword_name>
+
+- attack <sword_name>: attack to the entity with your sword
+
+- map: print the map
